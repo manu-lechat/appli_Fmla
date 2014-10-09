@@ -1,0 +1,327 @@
+{ 
+  "language": "English", 
+  "img_dir": "en",
+  "areas": [ 
+      {
+      	  "area_num": "1",
+          "area_file": "area1",
+          "title": "MEDIA PREPARATION AREA", 
+          "subtitle":"Improve productivity and quality for media preparation",
+          "items": [ 
+      		{
+      			"puce_name": "MASTERCLAVE<sup>®</sup>",
+      			"puce_x": "200",
+      			"puce_y": "400",
+      			"fiche_file": "masterclave",
+      			"fiche_video": "yep",
+      			"fiche_testimonial": "yep"
+      		},
+      		{
+      			"puce_name": "APS One",
+      			"puce_x": "300",
+      			"puce_y": "300",
+      			"fiche_file": "masterclave.png",
+      			"fiche_video": "yep",
+      			"fiche_testimonial": "yep"
+      		},
+      		{
+      			"puce_name": "XY 500 / PM i<sup>™</sup>",
+      			"puce_x": "400",
+      			"puce_y": "200",
+      			"fiche_file": "masterclave",
+      			"fiche_video": "yep",
+      			"fiche_testimonial": "yep"
+      		}
+  		   ] 	
+
+      }, 
+      {
+      	  "area_num": "2",
+          "area_file": "area2",
+          "title": "SAMPLE PREPARATION AREA", 
+          "subtitle": "Improve workflow efficiency and accuracy with automated blending and diluting",
+          "items": [ 
+      		{
+      			"puce_name": "MASTERCLAVE<sup>®</sup>",
+      			"puce_x": "200",
+      			"puce_y": "400",
+      			"fiche_file": "masterclave",
+      			"fiche_video": "yep",
+      			"fiche_testimonial": "yep"
+      		},
+      		{
+      			"puce_name": "APS One",
+      			"puce_x": "300",
+      			"puce_y": "300",
+      			"fiche_file": "masterclave.png",
+      			"fiche_video": "yep",
+      			"fiche_testimonial": "yep"
+      		},
+      		{
+      			"puce_name": "XY 500 / PM i<sup>™</sup>",
+      			"puce_x": "400",
+      			"puce_y": "200",
+      			"fiche_file": "masterclave",
+      			"fiche_video": "yep",
+      			"fiche_testimonial": "yep"
+      		}
+  		   ] 	
+      }, 
+      {
+      	  "area_num": "3",
+          "area_file": "area3",
+          "title": "QUALITY INDICATORS AREA",
+          "subtitle": "Achieve fast and easy next-day results for quality indicators",
+          "items": [ 
+      		{
+      			"puce_name": "MASTERCLAVE<sup>®</sup>",
+      			"puce_x": "200",
+      			"puce_y": "400",
+      			"fiche_file": "masterclave",
+      			"fiche_video": "yep",
+      			"fiche_testimonial": "yep"
+      		},
+      		{
+      			"puce_name": "APS One",
+      			"puce_x": "300",
+      			"puce_y": "300",
+      			"fiche_file": "masterclave.png",
+      			"fiche_video": "yep",
+      			"fiche_testimonial": "yep"
+      		},
+      		{
+      			"puce_name": "XY 500 / PM i<sup>™</sup>",
+      			"puce_x": "400",
+      			"puce_y": "200",
+      			"fiche_file": "masterclave",
+      			"fiche_video": "yep",
+      			"fiche_testimonial": "yep"
+      		}
+  		   ] 	
+      },
+      {
+      	  "area_num": "4",
+          "area_file": "area4",
+          "title": "INCUBATION AREA",
+          "subtitle": "For real-time temperature control",
+          "items": [ 
+      		{
+      			"puce_name": "MASTERCLAVE<sup>®</sup>",
+      			"puce_x": "200",
+      			"puce_y": "400",
+      			"fiche_file": "masterclave",
+      			"fiche_video": "yep",
+      			"fiche_testimonial": "yep"
+      		},
+      		{
+      			"puce_name": "APS One",
+      			"puce_x": "300",
+      			"puce_y": "300",
+      			"fiche_file": "masterclave.png",
+      			"fiche_video": "yep",
+      			"fiche_testimonial": "yep"
+      		},
+      		{
+      			"puce_name": "XY 500 / PM i<sup>™</sup>",
+      			"puce_x": "400",
+      			"puce_y": "200",
+      			"fiche_file": "masterclave",
+      			"fiche_video": "yep",
+      			"fiche_testimonial": "yep"
+      		}
+  		   ] 	
+      },
+      {
+      	  "area_num": "5",
+          "area_file": "area5",
+          "title": "PATHOGENS AREA",
+          "subtitle": "Achieve simple, next-day results to ensure food safety",
+          "items": [ 
+      		{
+      			"puce_name": "MASTERCLAVE<sup>®</sup>",
+      			"puce_x": "200",
+      			"puce_y": "400",
+      			"fiche_file": "masterclave",
+      			"fiche_video": "yep",
+      			"fiche_testimonial": "yep"
+      		},
+      		{
+      			"puce_name": "APS One",
+      			"puce_x": "300",
+      			"puce_y": "300",
+      			"fiche_file": "masterclave.png",
+      			"fiche_video": "yep",
+      			"fiche_testimonial": "yep"
+      		},
+      		{
+      			"puce_name": "XY 500 / PM i<sup>™</sup>",
+      			"puce_x": "400",
+      			"puce_y": "200",
+      			"fiche_file": "masterclave",
+      			"fiche_video": "yep",
+      			"fiche_testimonial": "yep"
+      		}
+  		   ] 	
+      },
+      {
+      	  "area_num": "6",
+          "area_file": "area6",
+          "title": "IDENTIFICATION AREA",
+          "subtitle": "From manual to rapid identification",
+          "items": [ 
+      		{
+      			"puce_name": "MASTERCLAVE<sup>®</sup>",
+      			"puce_x": "200",
+      			"puce_y": "400",
+      			"fiche_file": "masterclave",
+      			"fiche_video": "yep",
+      			"fiche_testimonial": "yep"
+      		},
+      		{
+      			"puce_name": "APS One",
+      			"puce_x": "300",
+      			"puce_y": "300",
+      			"fiche_file": "masterclave.png",
+      			"fiche_video": "yep",
+      			"fiche_testimonial": "yep"
+      		},
+      		{
+      			"puce_name": "XY 500 / PM i<sup>™</sup>",
+      			"puce_x": "400",
+      			"puce_y": "200",
+      			"fiche_file": "masterclave",
+      			"fiche_video": "yep",
+      			"fiche_testimonial": "yep"
+      		}
+  		   ] 	
+      },
+      {
+      	  "area_num": "7",
+          "area_file": "area7",
+          "title": "MICROBIAL DETECTION AREA ",
+          "subtitle": "For rapid sterility testing",
+          "items": [ 
+      		{
+      			"puce_name": "MASTERCLAVE<sup>®</sup>",
+      			"puce_x": "200",
+      			"puce_y": "400",
+      			"fiche_file": "masterclave",
+      			"fiche_video": "yep",
+      			"fiche_testimonial": "yep"
+      		},
+      		{
+      			"puce_name": "APS One",
+      			"puce_x": "300",
+      			"puce_y": "300",
+      			"fiche_file": "masterclave.png",
+      			"fiche_video": "yep",
+      			"fiche_testimonial": "yep"
+      		},
+      		{
+      			"puce_name": "XY 500 / PM i<sup>™</sup>",
+      			"puce_x": "400",
+      			"puce_y": "200",
+      			"fiche_file": "masterclave",
+      			"fiche_video": "yep",
+      			"fiche_testimonial": "yep"
+      		}
+  		   ] 	
+      },
+      {
+      	  "area_num": "8",
+          "area_file": "area8",
+          "title": "ENVIRONMENTAL MONITORING AREA",
+          "subtitle": "Key to the HACCP process",
+          "items": [ 
+      		{
+      			"puce_name": "MASTERCLAVE<sup>®</sup>",
+      			"puce_x": "200",
+      			"puce_y": "400",
+      			"fiche_file": "masterclave",
+      			"fiche_video": "yep",
+      			"fiche_testimonial": "yep"
+      		},
+      		{
+      			"puce_name": "APS One",
+      			"puce_x": "300",
+      			"puce_y": "300",
+      			"fiche_file": "masterclave.png",
+      			"fiche_video": "yep",
+      			"fiche_testimonial": "yep"
+      		},
+      		{
+      			"puce_name": "XY 500 / PM i<sup>™</sup>",
+      			"puce_x": "400",
+      			"puce_y": "200",
+      			"fiche_file": "masterclave",
+      			"fiche_video": "yep",
+      			"fiche_testimonial": "yep"
+      		}
+  		   ] 	
+      },
+      {
+      	  "area_num": "9",
+          "area_file": "area9",
+          "title": "WORKFLOW OPTIMIZATION",
+          "subtitle": "Customized service to enhance lab performance",
+          "items": [ 
+      		{
+      			"puce_name": "MASTERCLAVE<sup>®</sup>",
+      			"puce_x": "200",
+      			"puce_y": "400",
+      			"fiche_file": "masterclave",
+      			"fiche_video": "yep",
+      			"fiche_testimonial": "yep"
+      		},
+      		{
+      			"puce_name": "APS One",
+      			"puce_x": "300",
+      			"puce_y": "300",
+      			"fiche_file": "masterclave.png",
+      			"fiche_video": "yep",
+      			"fiche_testimonial": "yep"
+      		},
+      		{
+      			"puce_name": "XY 500 / PM i<sup>™</sup>",
+      			"puce_x": "400",
+      			"puce_y": "200",
+      			"fiche_file": "masterclave",
+      			"fiche_video": "yep",
+      			"fiche_testimonial": "yep"
+      		}
+  		   ] 	
+      },
+      {
+      	  "area_num": "10",
+          "area_file": "area10",
+          "title": "IT SOLUTIONS",
+          "subtitle": "For added value services",
+          "items": [ 
+      		{
+      			"puce_name": "MASTERCLAVE<sup>®</sup>",
+      			"puce_x": "200",
+      			"puce_y": "400",
+      			"fiche_file": "masterclave",
+      			"fiche_video": "yep",
+      			"fiche_testimonial": "yep"
+      		},
+      		{
+      			"puce_name": "APS One",
+      			"puce_x": "300",
+      			"puce_y": "300",
+      			"fiche_file": "masterclave.png",
+      			"fiche_video": "yep",
+      			"fiche_testimonial": "yep"
+      		},
+      		{
+      			"puce_name": "XY 500 / PM i<sup>™</sup>",
+      			"puce_x": "400",
+      			"puce_y": "200",
+      			"fiche_file": "masterclave",
+      			"fiche_video": "yep",
+      			"fiche_testimonial": "yep"
+      		}
+  		   ] 	
+      }
+   ] 
+} 
