@@ -40,64 +40,64 @@
           "area_file": "area2",
           "title": "SAMPLE PREPARATION AREA", 
           "subtitle": "Improve workflow efficiency and accuracy with automated blending and diluting",
-           "items": [ 
+          "items": [ 
           {
-            "puce_name": "MASTERCLAVE<sup>®</sup>",
-            "puce_x": "20",
-            "puce_y": "40",
-            "fiche_file": "A1_masterclave",
-            "fiche_video": "yep",
-            "fiche_testimonial": "yep"
+          "puce_name": "MASTERCLAVE<sup>®</sup>",
+          "puce_x": "20",
+          "puce_y": "40",
+          "fiche_file": "A1_masterclave",
+          "fiche_video": "yep",
+          "fiche_testimonial": "yep"
           },
           {
-            "puce_name": "APS One",
-            "puce_x": "30",
-            "puce_y": "30",
-            "fiche_file": "A2_apsone",
-            "fiche_video": "yep",
-            "fiche_testimonial": "yep"
+          "puce_name": "APS One",
+          "puce_x": "30",
+          "puce_y": "30",
+          "fiche_file": "A2_apsone",
+          "fiche_video": "yep",
+          "fiche_testimonial": "yep"
           },
           {
-            "puce_name": "XY 500 / PM i<sup>™</sup>",
-            "puce_x": "40",
-            "puce_y": "20",
-            "fiche_file": "A3_x500_PMi",
-            "fiche_video": "yep",
-            "fiche_testimonial": "yep"
+          "puce_name": "XY 500 / PM i<sup>™</sup>",
+          "puce_x": "40",
+          "puce_y": "20",
+          "fiche_file": "A3_x500_PMi",
+          "fiche_video": "yep",
+          "fiche_testimonial": "yep"
           }
-         ]  
+          ]  
       }, 
       {
       	  "area_num": "3",
           "area_file": "area3",
           "title": "QUALITY INDICATORS AREA",
           "subtitle": "Achieve fast and easy next-day results for quality indicators",
-         "items": [ 
+          "items": [ 
           {
-            "puce_name": "MASTERCLAVE<sup>®</sup>",
-            "puce_x": "20",
-            "puce_y": "40",
-            "fiche_file": "A1_masterclave",
-            "fiche_video": "yep",
-            "fiche_testimonial": "yep"
+          "puce_name": "MASTERCLAVE<sup>®</sup>",
+          "puce_x": "20",
+          "puce_y": "40",
+          "fiche_file": "A1_masterclave",
+          "fiche_video": "yep",
+          "fiche_testimonial": "yep"
           },
           {
-            "puce_name": "APS One",
-            "puce_x": "30",
-            "puce_y": "30",
-            "fiche_file": "A2_apsone",
-            "fiche_video": "yep",
-            "fiche_testimonial": "yep"
+          "puce_name": "APS One",
+          "puce_x": "30",
+          "puce_y": "30",
+          "fiche_file": "A2_apsone",
+          "fiche_video": "yep",
+          "fiche_testimonial": "yep"
           },
           {
-            "puce_name": "XY 500 / PM i<sup>™</sup>",
-            "puce_x": "40",
-            "puce_y": "20",
-            "fiche_file": "A3_x500_PMi",
-            "fiche_video": "yep",
-            "fiche_testimonial": "yep"
+          "puce_name": "XY 500 / PM i<sup>™</sup>",
+          "puce_x": "40",
+          "puce_y": "20",
+          "fiche_file": "A3_x500_PMi",
+          "fiche_video": "yep",
+          "fiche_testimonial": "yep"
           }
-         ]  
+          ]  
       },
       {
       	  "area_num": "4",
@@ -137,31 +137,31 @@
           "title": "PATHOGENS AREA",
           "subtitle": "Achieve simple, next-day results to ensure food safety",
           "items": [ 
-      		{
-      			"puce_name": "MASTERCLAVE<sup>®</sup>",
-      			"puce_x": "200",
-      			"puce_y": "400",
-      			"fiche_file": "masterclave",
-      			"fiche_video": "yep",
-      			"fiche_testimonial": "yep"
-      		},
-      		{
-      			"puce_name": "APS One",
-      			"puce_x": "300",
-      			"puce_y": "300",
-      			"fiche_file": "masterclave.png",
-      			"fiche_video": "yep",
-      			"fiche_testimonial": "yep"
-      		},
-      		{
-      			"puce_name": "XY 500 / PM i<sup>™</sup>",
-      			"puce_x": "400",
-      			"puce_y": "200",
-      			"fiche_file": "masterclave",
-      			"fiche_video": "yep",
-      			"fiche_testimonial": "yep"
-      		}
-  		   ] 	
+          {
+            "puce_name": "MASTERCLAVE<sup>®</sup>",
+            "puce_x": "20",
+            "puce_y": "40",
+            "fiche_file": "A1_masterclave",
+            "fiche_video": "yep",
+            "fiche_testimonial": "yep"
+          },
+          {
+            "puce_name": "APS One",
+            "puce_x": "30",
+            "puce_y": "30",
+            "fiche_file": "A2_apsone",
+            "fiche_video": "yep",
+            "fiche_testimonial": "yep"
+          },
+          {
+            "puce_name": "XY 500 / PM i<sup>™</sup>",
+            "puce_x": "40",
+            "puce_y": "20",
+            "fiche_file": "A3_x500_PMi",
+            "fiche_video": "yep",
+            "fiche_testimonial": "yep"
+          }
+         ]  
       },
       {
       	  "area_num": "6",
@@ -169,31 +169,31 @@
           "title": "IDENTIFICATION AREA",
           "subtitle": "From manual to rapid identification",
           "items": [ 
-      		{
-      			"puce_name": "MASTERCLAVE<sup>®</sup>",
-      			"puce_x": "200",
-      			"puce_y": "400",
-      			"fiche_file": "masterclave",
-      			"fiche_video": "yep",
-      			"fiche_testimonial": "yep"
-      		},
-      		{
-      			"puce_name": "APS One",
-      			"puce_x": "300",
-      			"puce_y": "300",
-      			"fiche_file": "masterclave.png",
-      			"fiche_video": "yep",
-      			"fiche_testimonial": "yep"
-      		},
-      		{
-      			"puce_name": "XY 500 / PM i<sup>™</sup>",
-      			"puce_x": "400",
-      			"puce_y": "200",
-      			"fiche_file": "masterclave",
-      			"fiche_video": "yep",
-      			"fiche_testimonial": "yep"
-      		}
-  		   ] 	
+          {
+            "puce_name": "MASTERCLAVE<sup>®</sup>",
+            "puce_x": "20",
+            "puce_y": "40",
+            "fiche_file": "A1_masterclave",
+            "fiche_video": "yep",
+            "fiche_testimonial": "yep"
+          },
+          {
+            "puce_name": "APS One",
+            "puce_x": "30",
+            "puce_y": "30",
+            "fiche_file": "A2_apsone",
+            "fiche_video": "yep",
+            "fiche_testimonial": "yep"
+          },
+          {
+            "puce_name": "XY 500 / PM i<sup>™</sup>",
+            "puce_x": "40",
+            "puce_y": "20",
+            "fiche_file": "A3_x500_PMi",
+            "fiche_video": "yep",
+            "fiche_testimonial": "yep"
+          }
+         ]  
       },
       {
       	  "area_num": "7",
@@ -203,24 +203,24 @@
           "items": [ 
       		{
       			"puce_name": "MASTERCLAVE<sup>®</sup>",
-      			"puce_x": "200",
-      			"puce_y": "400",
+      			"puce_x": "20",
+      			"puce_y": "40",
       			"fiche_file": "masterclave",
       			"fiche_video": "yep",
       			"fiche_testimonial": "yep"
       		},
       		{
       			"puce_name": "APS One",
-      			"puce_x": "300",
-      			"puce_y": "300",
+      			"puce_x": "30",
+      			"puce_y": "30",
       			"fiche_file": "masterclave.png",
       			"fiche_video": "yep",
       			"fiche_testimonial": "yep"
       		},
       		{
       			"puce_name": "XY 500 / PM i<sup>™</sup>",
-      			"puce_x": "400",
-      			"puce_y": "200",
+      			"puce_x": "40",
+      			"puce_y": "20",
       			"fiche_file": "masterclave",
       			"fiche_video": "yep",
       			"fiche_testimonial": "yep"
@@ -235,24 +235,24 @@
           "items": [ 
       		{
       			"puce_name": "MASTERCLAVE<sup>®</sup>",
-      			"puce_x": "200",
-      			"puce_y": "400",
+      			"puce_x": "20",
+      			"puce_y": "40",
       			"fiche_file": "masterclave",
       			"fiche_video": "yep",
       			"fiche_testimonial": "yep"
       		},
       		{
       			"puce_name": "APS One",
-      			"puce_x": "300",
-      			"puce_y": "300",
+      			"puce_x": "30",
+      			"puce_y": "30",
       			"fiche_file": "masterclave.png",
       			"fiche_video": "yep",
       			"fiche_testimonial": "yep"
       		},
       		{
       			"puce_name": "XY 500 / PM i<sup>™</sup>",
-      			"puce_x": "400",
-      			"puce_y": "200",
+      			"puce_x": "40",
+      			"puce_y": "20",
       			"fiche_file": "masterclave",
       			"fiche_video": "yep",
       			"fiche_testimonial": "yep"
@@ -267,24 +267,24 @@
           "items": [ 
       		{
       			"puce_name": "MASTERCLAVE<sup>®</sup>",
-      			"puce_x": "200",
-      			"puce_y": "400",
+      			"puce_x": "20",
+      			"puce_y": "40",
       			"fiche_file": "masterclave",
       			"fiche_video": "yep",
       			"fiche_testimonial": "yep"
       		},
       		{
       			"puce_name": "APS One",
-      			"puce_x": "300",
-      			"puce_y": "300",
+      			"puce_x": "30",
+      			"puce_y": "30",
       			"fiche_file": "masterclave.png",
       			"fiche_video": "yep",
       			"fiche_testimonial": "yep"
       		},
       		{
       			"puce_name": "XY 500 / PM i<sup>™</sup>",
-      			"puce_x": "400",
-      			"puce_y": "200",
+      			"puce_x": "40",
+      			"puce_y": "20",
       			"fiche_file": "masterclave",
       			"fiche_video": "yep",
       			"fiche_testimonial": "yep"
@@ -299,24 +299,24 @@
           "items": [ 
       		{
       			"puce_name": "MASTERCLAVE<sup>®</sup>",
-      			"puce_x": "200",
-      			"puce_y": "400",
+      			"puce_x": "20",
+      			"puce_y": "40",
       			"fiche_file": "masterclave",
       			"fiche_video": "yep",
       			"fiche_testimonial": "yep"
       		},
       		{
       			"puce_name": "APS One",
-      			"puce_x": "300",
-      			"puce_y": "300",
+      			"puce_x": "30",
+      			"puce_y": "30",
       			"fiche_file": "masterclave.png",
       			"fiche_video": "yep",
       			"fiche_testimonial": "yep"
       		},
       		{
       			"puce_name": "XY 500 / PM i<sup>™</sup>",
-      			"puce_x": "400",
-      			"puce_y": "200",
+      			"puce_x": "40",
+      			"puce_y": "20",
       			"fiche_file": "masterclave",
       			"fiche_video": "yep",
       			"fiche_testimonial": "yep"

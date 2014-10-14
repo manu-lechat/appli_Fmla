@@ -34,17 +34,21 @@ box-shadow: 0px -10px 45px 0px #7cb1c5;
 filter:progid:DXImageTransform.Microsoft.Shadow(color=#7cb1c5, Direction=90, Strength=45);
 }
 
+.display_block{ display: block }
+
+#ecran_loader{ background: #fff; z-index: 100}
 
 #ecran_home{ }
+
 #ecran_home #home_content{ position: absolute; width: 100%; height: 100%;  }
 #ecran_home .vignettage{ position: absolute; width: 100%; height: 100%; background: url("../img/vignettage.png"); background-size: 100% 100%; }
 #ecran_home .iso_grid{ position: absolute; width: 100%; height: 100%; background: url("../img/home_iso_grid.png"); background-size: 100% 100%; }
-#ecran_home #home_middle{  position: relative; margin: 0% auto; height: 90%;  border:1px solid #fff; }
+#ecran_home #home_middle{  position: relative; margin: 0% auto; height: 90%;  }
 
 
 /*position: relative; height: 100%; background: url("../img/home_img.png") top middle no-repeat; background-size: 100% auto*/
 /* home zone cliquables */
-#ecran_home #home_middle a{ position: absolute; display: block;  min-width: 15px; min-height: 15px ; background-repeat: no-repeat; border:1px solid #ccc;}
+#ecran_home #home_middle a{ position: absolute; display: block;  min-width: 15px; min-height: 15px ; background-repeat: no-repeat; }
 #ecran_home #home_middle a#home_a1{ width: 15%; height:25%; left: 5%; top: 50%; background : url("../img/area1_home.png") no-repeat; background-size: 100% auto; }
 #ecran_home #home_middle a#home_a2{ width: 15%; height:25%; left: 13%; top: 28%; background : url("../img/area2_home.png")no-repeat; background-size: 100% auto; }
 #ecran_home #home_middle a#home_a3{ width: 15%; height:25%; left: 35%; top: 40%; background : url("../img/area3_home.png")no-repeat; background-size: 100% auto;  }
@@ -53,30 +57,34 @@ filter:progid:DXImageTransform.Microsoft.Shadow(color=#7cb1c5, Direction=90, Str
 #ecran_home #home_middle a#home_a6{ width: 15%; height:25%; left: 55%; top: 55% ; background : url("../img/area6_home.png")no-repeat; background-size: 100% auto; }
 #ecran_home #home_middle a#home_a7{ width: 15%; height:25%; left: 35%; top: 65% ; background : url("../img/area7_home.png")no-repeat; background-size: 100% auto; }
 #ecran_home #home_middle a#home_a8{ width: 15%; height:25%; left: 35%; top: 15% ; background : url("../img/area8_home.png")no-repeat; background-size: 100% auto; }
-#ecran_home #home_middle a#home_a9{  width: 20%; height:5%; left: 75%; top: 80% ; background : url("../img/area9_home.png") no-repeat; background-size: 100% auto; }
+#ecran_home #home_middle a#home_a9{  width: 20%; height:5%; left: 75%; top: 83% ; background : url("../img/area9_home.png") no-repeat; background-size: 100% auto; }
 #ecran_home #home_middle a#home_a10{ width: 20%; height:5%; left: 75%; top: 87% ; background : url("../img/area10_home.png")no-repeat; background-size: 100% auto; }
 #ecran_home footer{ display: block; height: 10%;  background: #fff url("../img/home_footer_bg.png") top center no-repeat; background-size: auto 100%;    }
 
 
 /* ecran_areas */
 
+
+/*  swipper */
+#ecran_areas .area_container{ display: block;  width: 100%;  height: 88%; position: relative; z-index: 0 ;   }
+#ecran_areas .area_wrapper{ display: block;width: 100%; height: 100%; position: relative; z-index: 0 ;  }
+#ecran_areas .area_slide{ display: block;width: 100%; height: 100%; position: relative; z-index: 0;   }
+
+#ecran_areas .swipper_middle{ border:1px solid yellow;  }
+
+
 #ecran_areas { z-index: 0 }
-#ecran_areas .area_slide .swipper_middle { position: relative;  margin: 0 auto; height: 100%; width: 70%; top: 0; border:1px solid #fff;}
+#ecran_areas .area_slide .swipper_middle { position: relative;  margin: 5% auto; height: 80%; width: 70%; top: 0; border:1px solid #fff;}
+
+
+
 #ecran_areas .area_slide .swipper_middle img{ width: 100%; height: auto;  }
 #ecran_areas .area_slide a{  position: absolute; opacity:0; height: 10%;  display: block; background:url("../img/puce_bg.png") bottom center no-repeat; background-size: 50% auto; width: 10%;   }
 #ecran_areas .area_slide a span{ position: absolute;display: inline; top: -30%; left: -50px; width:200px; text-align: center; font-size: 0.9em; text-transform: uppercase; color: #000; font-weight: bold;  }
-#ecran_areas .area_slide a{
-	-webkit-transition: 600ms;
-	-moz-transition: 600ms;
-	-o-transition: 600ms;
-	-ms-transition: 600ms;
-	transition: 600ms;
-}
-#ecran_areas .area_slide a.area_slide_a_active{ opacity:1; }
+#ecran_areas .area_slide a.area_slide_a_active{  }
 
-#ecran_areas .bannier_txt{ z-index: 10; position: absolute; top: 5%; left: 23%; background: url("../img/bannier_txt_bg.png") top left no-repeat; 
-background-size:auto 100% ; padding-left: 35px; padding-top: -10px; padding-bottom: 10px; }
-#ecran_areas .bannier_txt h1{ color: #fff; font-size: 1.3em }
+#ecran_areas .bannier_txt{ z-index: 10; position: absolute; top: 5%; left: 20%; background-size:auto 100% ; padding-left: 35px; padding-top: -10px; padding-bottom: 10px; }
+#ecran_areas .bannier_txt h1{ color: #fff; font-size: 1.7em; letter-spacing: -0.05em; text-transform: uppercase; }
 #ecran_areas .bannier_txt h2{ color: #333;  font-size: 0.9em; letter-spacing: -0.1em; }
 
 #ecran_areas footer{ height: 12%;  background: #fff; z-index: 10    }
