@@ -13,9 +13,9 @@ function initMain(){
 
 	console.log("init main");
 	window.addEventListener("resize", resize_window);
-	//init_ecran_home();
+	init_ecran_home();
 	get_json();
-	init_ecran_area();
+	//init_ecran_area();
 	$('#fiche_container').css("display","none");
 	$("#fiche_produit_bg").css("display","none");
 	resize_window();
@@ -167,10 +167,11 @@ function hideFiche(ficheToShow){
 // resize
 function resize_window(){
 
-	$("#home_middle").css("width",  Math.round( $("#home_middle" ).height()*rapport_proportions_1)+"px"  );
+	$("#home_middle").css("width",  Math.round( $("#home_middle" ).height()*1.4)+"px"  );
 	$(".swipper_middle").css("width",  Math.round( $(".swipper_middle" ).height()*rapport_proportions_2)+"px"  );
 	$("#fiche_produit").css("width",  Math.round( $("#fiche_produit").height()*2 )+"px"  );
 	$("#fiche_container").css("width",  Math.round( $("#fiche_produit").height()*2 )+"px"  );
+	$("#ecran_home #home_middle a.resize").css("width",  Math.round( $("#ecran_home #home_middle a").height()*1.6 )+"px"  );
 
 }
 

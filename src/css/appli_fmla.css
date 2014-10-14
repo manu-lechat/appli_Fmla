@@ -36,26 +36,26 @@ filter:progid:DXImageTransform.Microsoft.Shadow(color=#7cb1c5, Direction=90, Str
 
 
 #ecran_home{ }
-#ecran_home #home_content{ height: 88%; }
+#ecran_home #home_content{ position: absolute; width: 100%; height: 100%;  }
 #ecran_home .vignettage{ position: absolute; width: 100%; height: 100%; background: url("../img/vignettage.png"); background-size: 100% 100%; }
-#ecran_home #home_middle{  position: relative; margin: 0 auto; height: 100%; background: url("../img/home_img.png"); 
-background-size:  auto 100%}
+#ecran_home .iso_grid{ position: absolute; width: 100%; height: 100%; background: url("../img/home_iso_grid.png"); background-size: 100% 100%; }
+#ecran_home #home_middle{  position: relative; margin: 0% auto; height: 90%;  border:1px solid #fff; }
 
 
 /*position: relative; height: 100%; background: url("../img/home_img.png") top middle no-repeat; background-size: 100% auto*/
 /* home zone cliquables */
-#ecran_home #home_middle a{ position: absolute; display: block;  min-width: 15px; min-height: 15px }
-#ecran_home #home_middle a#home_a1{ width: 10%; height:20%; left: 15%; top: 50%  }
-#ecran_home #home_middle a#home_a2{ width: 10%; height:20%; left: 20%; top: 17%  }
-#ecran_home #home_middle a#home_a3{ width: 10%; height:20%; left: 40%; top: 40%  }
-#ecran_home #home_middle a#home_a4{ width: 10%; height:20%; left: 60%; top: 20%  }
-#ecran_home #home_middle a#home_a5{ width: 10%; height:20%; left: 75%; top: 40%  }
-#ecran_home #home_middle a#home_a6{ width: 10%; height:20%; left: 60%; top: 55%  }
-#ecran_home #home_middle a#home_a7{ width: 10%; height:20%; left: 40%; top: 65%  }
-#ecran_home #home_middle a#home_a8{ width: 10%; height:20%; left: 40%; top: 15%  }
-#ecran_home #home_middle a#home_a9{  width: 18%; height:5%; left: 75%; top: 80%  }
-#ecran_home #home_middle a#home_a10{ width: 18%; height:5%; left: 75%; top: 87%  }
-#ecran_home footer{ display: none; height: 10%;  background: #fff url("../img/home_footer_bg.png") top center no-repeat; background-size: auto 100%;    }
+#ecran_home #home_middle a{ position: absolute; display: block;  min-width: 15px; min-height: 15px ; background-repeat: no-repeat; border:1px solid #ccc;}
+#ecran_home #home_middle a#home_a1{ width: 15%; height:25%; left: 5%; top: 50%; background : url("../img/area1_home.png") no-repeat; background-size: 100% auto; }
+#ecran_home #home_middle a#home_a2{ width: 15%; height:25%; left: 13%; top: 28%; background : url("../img/area2_home.png")no-repeat; background-size: 100% auto; }
+#ecran_home #home_middle a#home_a3{ width: 15%; height:25%; left: 35%; top: 40%; background : url("../img/area3_home.png")no-repeat; background-size: 100% auto;  }
+#ecran_home #home_middle a#home_a4{ width: 15%; height:25%; left: 59%; top: 26%; background : url("../img/area4_home.png")no-repeat; background-size: 100% auto; }
+#ecran_home #home_middle a#home_a5{ width: 15%; height:25%; left: 69%; top: 45%; background : url("../img/area5_home.png")no-repeat; background-size: 100% auto; }
+#ecran_home #home_middle a#home_a6{ width: 15%; height:25%; left: 55%; top: 55% ; background : url("../img/area6_home.png")no-repeat; background-size: 100% auto; }
+#ecran_home #home_middle a#home_a7{ width: 15%; height:25%; left: 35%; top: 65% ; background : url("../img/area7_home.png")no-repeat; background-size: 100% auto; }
+#ecran_home #home_middle a#home_a8{ width: 15%; height:25%; left: 35%; top: 15% ; background : url("../img/area8_home.png")no-repeat; background-size: 100% auto; }
+#ecran_home #home_middle a#home_a9{  width: 20%; height:5%; left: 75%; top: 80% ; background : url("../img/area9_home.png") no-repeat; background-size: 100% auto; }
+#ecran_home #home_middle a#home_a10{ width: 20%; height:5%; left: 75%; top: 87% ; background : url("../img/area10_home.png")no-repeat; background-size: 100% auto; }
+#ecran_home footer{ display: block; height: 10%;  background: #fff url("../img/home_footer_bg.png") top center no-repeat; background-size: auto 100%;    }
 
 
 /* ecran_areas */
