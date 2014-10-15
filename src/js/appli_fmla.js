@@ -14,7 +14,7 @@ function initMain(){
 	console.log("init main");
 	resize_window();
 	doNextStep();
-	//window.addEventListener("resize", resize_window);
+	window.addEventListener("resize", resize_window);
 	//init_ecran_home();
 	//get_json();
 	//init_ecran_area();
@@ -76,7 +76,7 @@ function useJsonDatas(arr) {
 		area_html += 	'<h1>'+JsonArray.areas[i].title+'</h1>';
 		area_html += 	'<h2>'+JsonArray.areas[i].subtitle+'</h2>';
 		area_html += 	'</section>';
-		area_html += 	'<div class="swipper_middle">';
+		area_html += 	'<div class="swipper_middle redim_169">';
 			// puces
 			for (var j = 0;  j <= JsonArray.areas[i].items.length - 1; j++) {
 			area_html += 		'<a href="#" ficheId="'+JsonArray.areas[i].items[j].fiche_file+'" style="left:'+JsonArray.areas[i].items[j].puce_x+'%; top:'+JsonArray.areas[i].items[j].puce_y+'%"><span>'+JsonArray.areas[i].items[j].puce_name+'</span></a>';
@@ -100,7 +100,8 @@ function init_areas(){
 
 	console.log('funcion init_areas');
 	// config links in the footer
-	$('#swiper_nav .swiper_link').click(function(){ contentSwiper.swipeTo( $(this).index(), 0); area_in_fx();  });
+	//$('.swiper_link').click(function(){ contentSwiper.swipeTo( $(this).index(), 0); area_in_fx();  });
+	$('.swiper_link').click(function(){ contentSwiper.swipeTo( $(this).attr("slideToShow"), 0); area_in_fx();  });
 	$(".bt_home").click(function(){ affiche_home(); 	});
 
 	 // init_swipper
@@ -118,6 +119,8 @@ function init_areas(){
 	  });
 	// show current puces
 	area_in_fx();
+
+	resize_window();
 	// next 
 	doNextStep();
 }
@@ -155,8 +158,8 @@ function area_out_fx(){
 	$(".swiper-slide-active a").css("opacity","0");
 	
 	// footer links
-	$('#swiper_nav .swiper_link_active').removeClass('swiper_link_active');
-	$('#swiper_nav .swiper_link').eq(contentSwiper.activeIndex).addClass('swiper_link_active');
+	$('.swiper_link_active').removeClass('swiper_link_active');
+	$('.swiper_link').eq(contentSwiper.activeIndex).addClass('swiper_link_active');
 
 }
 
@@ -235,13 +238,8 @@ function show_ecran(id){
 function resize_window(){
 
 	console.log("resize_window");
-
 	$("#home_middle").css("width",  Math.round( $("#home_middle" ).height()*1.4)+"px"  );
-
-	$(".swipper_middle").each(function() {
-	 	$(this).css("width", "100px" );
-	});
-	
+	$(".redim_169").css("width",   Math.round( $(this).height()*1.5)+"px"  );
 	$("#fiche_produit").css("width",  Math.round( $("#fiche_produit").height()*2 )+"px"  );
 	$("#fiche_container").css("width",  Math.round( $("#fiche_produit").height()*2 )+"px"  );
 	$("#ecran_home #home_middle a.resize").css("width",  Math.round( $("#ecran_home #home_middle a").height()*1.6 )+"px"  );

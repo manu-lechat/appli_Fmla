@@ -65,43 +65,39 @@ filter:progid:DXImageTransform.Microsoft.Shadow(color=#7cb1c5, Direction=90, Str
 /* ecran_areas */
 
 
-/*  swipper */
+#ecran_areas { }
 #ecran_areas .area_container{ display: block;  width: 100%;  height: 88%; position: relative; z-index: 0 ;   }
 #ecran_areas .area_wrapper{ display: block;width: 100%; height: 100%; position: relative; z-index: 0 ;  }
 #ecran_areas .area_slide{ display: block;width: 100%; height: 100%; position: relative; z-index: 0;   }
-
 #ecran_areas .swipper_middle{ border:1px solid yellow;  }
 
 
-#ecran_areas { z-index: 0 }
-#ecran_areas .area_slide .swipper_middle { position: relative;  margin: 5% auto; height: 80%; width: 70%; top: 0; border:1px solid #fff;}
+#ecran_areas .swipper_middle { position: relative; background:red;  margin: 3% auto 0 auto; height: 85%; width: 90%; top: 0; }
+#ecran_areas .swipper_middle img{ width: 100%; height: auto;  }
 
 
 
-#ecran_areas .area_slide .swipper_middle img{ width: 100%; height: auto;  }
+
 #ecran_areas .area_slide a{  position: absolute; opacity:0; height: 10%;  display: block; background:url("../img/puce_bg.png") bottom center no-repeat; background-size: 50% auto; width: 10%;   }
 #ecran_areas .area_slide a span{ position: absolute;display: inline; top: -30%; left: -50px; width:200px; text-align: center; font-size: 0.9em; text-transform: uppercase; color: #000; font-weight: bold;  }
 #ecran_areas .area_slide a.area_slide_a_active{  }
 
-#ecran_areas .bannier_txt{ z-index: 10; position: absolute; top: 5%; left: 20%; background-size:auto 100% ; padding-left: 35px; padding-top: -10px; padding-bottom: 10px; }
-#ecran_areas .bannier_txt h1{ color: #fff; font-size: 1.7em; letter-spacing: -0.05em; text-transform: uppercase; }
+#ecran_areas .bannier_txt{ font-size: 1em; z-index: 10; position: absolute; top: 5%; left: 20%; background-size:auto 100% ; padding-left: 35px; padding-top: -10px; padding-bottom: 10px; }
+#ecran_areas .bannier_txt h1{ color: #fff; font-size: 1.7em; letter-spacing: -0.05em; text-transform: uppercase; font-weight: 800}
 #ecran_areas .bannier_txt h2{ color: #333;  font-size: 0.9em; letter-spacing: -0.1em; }
 
-#ecran_areas footer{ height: 12%;  background: #fff; z-index: 10    }
-#ecran_areas footer a.bt_home{ display:block; width : 8%; margin-left: 2%; height: 100%; background: url("../img/footer_a_home.gif") top left no-repeat;  float: left; background-size: 100% auto; background-position: 20% 50%  }
-#ecran_areas footer #swiper_nav{ display: block;text-align: center; width: 70%; height: 100%;  margin: 0 15%;  overflow: hidden; background: #fff     }
-#ecran_areas footer #swiper_nav .swiper_link{ width: 12.5%; margin: 0; height: 100%; display: block; float: left  }
-
-#ecran_areas footer #swiper_nav .swiper_link img{ width: 90%; height: auto; margin: 14% 5% 0 5% ; }
-#ecran_areas footer *{	
-	-webkit-transition: 600ms;
-	-moz-transition: 600ms;
-	-o-transition: 600ms;
-	-ms-transition: 600ms;
-	transition: 600ms;
-}
-
-#ecran_areas footer #swiper_nav .swiper_link_active { background: #e7eaed }
+#ecran_areas footer{ height: 12%;  background: #fff; z-index: 10  ; position: relative; font-size: 0.6em; text-transform: uppercase; }
+#ecran_areas footer a.bt_home{ display:block; width : 8%;  margin-left: 2%; height: 100%; background: url("../img/footer_a_home.gif") top left no-repeat;  float: left; background-size: 100% auto; background-position: 20% 50%  }
+#ecran_areas footer #swiper_nav{text-align: center; width: 70%; height: 100%;  margin: 0 15%;  overflow: hidden; background: #fff     }
+#ecran_areas footer #swiper_nav .swiper_link{  width: 11%; margin: 0; height: 100%; display: block; float: left  }
+#ecran_areas footer #swiper_nav .swiper_link:hover{ background: #f1f5f9 }
+#ecran_areas footer #swiper_nav .swiper_link img{ display: block; width: 90%; height: auto; margin: 30% 5% 0 5% ; }
+#ecran_areas footer #bt_menu{	float:right; display: block; width: 10%; height: 100%; background: url('../img/footer_bt_menu.gif') center middle no-repeat; background-size: 50% auto; 	}
+#ecran_areas footer .swiper_link_active { background-color: #e7eaed }
+#ecran_areas footer  a.footer_bt_txt{ width: 15%; height:20%; position: absolute; display: block;  background-image: url("../img/footer_a_bullet.gif"); background-position: top left; background-repeat:  no-repeat;  background-size: auto 100%; padding-left: 2%}  
+#ecran_areas footer  a.footer_a9{ left: 80%; top: 30% ;  }
+#ecran_areas footer  a.footer_a10{ left: 80%; top: 52% ; }
+#ecran_areas footer *{	 -webkit-transition: 600ms; -moz-transition: 600ms; -o-transition: 600ms; -ms-transition: 600ms; transition: 600ms; }
 
 
 #fiche_produit_bg{  background: rgba( 255, 255, 255, 0.5 ); z-index: 200; }
@@ -119,6 +115,7 @@ filter:progid:DXImageTransform.Microsoft.Shadow(color=#7cb1c5, Direction=90, Str
 
 .border{ border:1px solid #fff; }
 
+#transition_600{	 -webkit-transition: 600ms; -moz-transition: 600ms; -o-transition: 600ms; -ms-transition: 600ms; transition: 600ms; }
 
 
 .ombre1{
