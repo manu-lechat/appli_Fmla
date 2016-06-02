@@ -1,0 +1,44 @@
+{
+  "name": "appli_Fmla",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.html",
+  "window": {
+    "toolbar": false,
+    "frame": false,
+    "fullscreen": true,
+    "height": 800,
+    "width": 1200
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/manu-lechat/appli_Fmla.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/manu-lechat/appli_Fmla/issues"
+  },
+  "homepage": "https://github.com/manu-lechat/appli_Fmla",
+  "devDependencies": {
+    "body-parser": "^1.8.2",
+    "express": "^4.9.0",
+    "gulp": "^3.8.10",
+    "gulp-imagemin": "^1.0.1",
+    "gulp-jshint": "^1.8.4",
+    "gulp-livereload": "^2.1.1",
+    "gulp-minify-css": "^0.3.8",
+    "gulp-minify-html": "^0.1.5",
+    "gulp-uglify": "^1.0.1",
+    "gulp-usemin": "^0.3.8",
+    "gulp-util": "^3.0.1",
+    "gulp-zip": "~2.0.2",
+    "nw-builder": "^2.2.0",
+    "open": "0.0.5",
+    "rimraf": "^2.2.8",
+    "tiny-lr": "^0.1.4"
+  },
+  "dependencies": {
+    "joii": "~3.0.6"
+  }
+}

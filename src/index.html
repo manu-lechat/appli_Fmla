@@ -2,112 +2,262 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 	<title>FMLA Lab</title>
-	<link rel="stylesheet" href="css/idangerous.swiper.css">
+	<!-- build:css css/style.min.css -->
+	<link rel="stylesheet" href="../bower_components/idangerous-swiper/dist/idangerous.swiper.css">
 	<link rel="stylesheet" href="css/appli_fmla.css">
-
-
 	<!-- endbuild -->
 </head>
 <body>
 
 
+
+
+
 <div class="main ombre1">
 
+	<!-- WELCOME SCREEN -->
+	<section id="ecran_welcome" class="ecran">
 
-	<header class="ombre2"></header>
+	
 
-	<section id="ecran_home" class="ecran">
-		<div id="home_content">
-			<div class="vignettage"></div>
-			<div class="iso_grid"></div>
-			<div id="home_middle">
-				<a id="home_a1" class="showSlide resize" slideToShow="0" href="#"></a>
-				<a id="home_a2" class="showSlide resize"  slideToShow="1" href="#"></a>
-				<a id="home_a3" class="showSlide resize"  slideToShow="2" href="#"></a>
-				<a id="home_a4" class="showSlide resize"  slideToShow="3" href="#"></a>
-				<a id="home_a5" class="showSlide resize"  slideToShow="4" href="#"></a>
-				<a id="home_a6" class="showSlide resize"  slideToShow="5" href="#"></a>
-				<a id="home_a7" class="showSlide resize"  slideToShow="6" href="#"></a>
-				<a id="home_a8" class="showSlide resize"  slideToShow="7" href="#"></a>
-				<a id="home_a9" class="showSlide" slideToShow="9" href="#" ></a>
-				<a id="home_a10" class="showSlide" slideToShow="10" href="#"></a>
+		<div id="welcome_container" >
+			<div class="welcome_img_container">
+				<img id="welcome1" src="img/intro_logo.png" class="intro_img transition_2000">
+				<img id="welcome2" src="img/en/intro_biolab.png" class="intro_img transition_2000">
+				<img id="welcome3" src="img/en/intro_biolab_sub.png" class="intro_img transition_2000">
+			</div>
+				<a language="en" class="transition_all_02 bt_welcome">
+					<img src="img/flag_en.png">Welcome
+				</a>
+				<a language="fr" class="transition_all_02 bt_welcome">
+					<img src="img/flag_fr.png">Bienvenue
+				</a>
+				<a language="pt" class="transition_all_02 bt_welcome">
+					<img src="img/flag_pt.png">bem-vindo
+				</a> 
+				<a language="es" class="transition_all_02 bt_welcome">
+					<img src="img/flag_es.png">bienvenida
+				</a>
+		</div>
+		<div class="ligne_verte"></div>
+	</section>
+
+	<!-- INTRO SCREEN -->
+	<section id="ecran_intro_anim" class="ecran">
+		<section id="border_bottom" class="transition_2000"></section>
+
+		<a href="#" id="bt_skip"></a>
+
+		<div class="container_txt container">
+
+			<h1 id="txtA1" class="txt_blanc json_txtA1">Today you face different challenges*****</h1>
+			<p id="txtA2" class="json_txtA2 txt_gris " style="margin-top: 0.5em;">Rapid decisions*****</p>
+			<p id="txtA3" class="json_txtA3 txt_gris ">Improved quality*****</p>
+			<p id="txtA4" class="json_txtA4 txt_gris ">Increased productivity*****</p>
+		</div>
+
+		<div class="container_txt container">
+			<p id="txtB1" class=" titre_microLab">
+				<span id="txtB1A" class="font_alt_bold json_txtB1A txt_bold txt_black">MICROBIOLOGY*****</span>
+				<span id="txtB1B" class="font_alt_bold json_txtB1B txt_ombre">LAB*****</span>
+			</p>
+
+			<p id="txtB2" class="">
+				<span id="txtB2A" class="json_txtB2A sstitre_microLab"> FROM SAMPLE*****</span>
+				<span id="txtB2B" class="json_txtB2B sstitre_microLab">TO DECISION*****</span>
+			</p>
+		</div>
+
+		<div class="container_img container">
+			<img id="visuB1" src="img/en/intro_visu1.png">
+		</div>		
+
+		<div class="container_txt container">
+			<h1 id="txtC1" class="json_txtC1">Release your products faster*****</h1>
+			<h1 id="txtC2" class="json_txtC2" >with confidence*****</h1>
+		</div>
+
+		<div class="container_img container">
+			<img id="visuC1" src="img/en/visuel_triCycle.png">		
+			<img id="visuC2" src="img/en/visuel_triCycle_suite.png">		
+		</div>
+
+		<div id="intro_anim_video_1" class="intro_anim_video ecran" >
+			<div id="video_1_container" class="__hidden ecran">
+			<video id="video_1" poster="img/vid_intro_poster.jpg" >
+				<source  src="media/video_intro.mp4" type="video/mp4">
+				<source src="media/video_intro.webm" type="video/webm">
+				<source src="media/video_intro.ogv" type="video/ogg">
+			</video>
 			</div>
 		</div>
-		<footer></footer>
+		
 	</section>
 
-	<section id="ecran_areas" class="ecran">
+
+	<!-- HOME SCREEN -->
+	<section id="ecran_home" class="ecran">
+
+		<header  id='header_biomerieux' class="ombre2"></header>
+
+
+
+		<div id="home_content" class=''>
+			<div class="vignettage"></div>
+			<div class="iso_grid"></div>
+			<div id="home_middle" class=''>
+				<a id="home_a1" alt="test" class="showSlide resize"  slideToShow="0" href="#"></a>
+				<a id="home_a2" alt="test" class="showSlide resize"  slideToShow="1" href="#"></a>
+				<a id="home_a3" alt="test" class="showSlide resize"  slideToShow="2" href="#"></a>
+				<a id="home_a4" alt="test" class="showSlide resize"  slideToShow="3" href="#"></a>
+				<a id="home_a5" alt="test" class="showSlide resize"  slideToShow="4" href="#"></a>
+				<a id="home_a6" alt="test" class="showSlide resize"  slideToShow="5" href="#"></a>
+				<a id="home_a7" alt="test" class="showSlide resize"  slideToShow="6" href="#"></a>
+				<a id="home_a8" alt="test" class="showSlide resize"  slideToShow="7" href="#"></a>
+				<a id="home_a9" alt="test" class="showSlide" slideToShow="8" href="#" ></a>
+				<a id="home_a10" alt="test" class="showSlide" slideToShow="9" href="#"></a>
+			</div>
+			<div class="bannier_txt">
+				<p class="titre_microLab">
+					<span id="txtH1A" class="json_txtH1A txt_bold txt_black bold">MICROBIOLOGY*****</span>
+					<span id="txtH1B" class="json_txtH1B" style=""> LAB*****</span>
+				</p>
+				<p class="sstitre_microLab">
+					<span id="txtH2A" class="json_txtH2A">FROM <strong>SAMPLE</strong>*****</span>
+					<span id="txtH2B" class="json_txtH2B">TO <strong>DECISION</strong>*****</span>
+				</p>
+			</div>
+			<a href="#" alt="play" id="bt_play"></a>
+		</div>
+	</section>
+
+	<!-- AREAS SCREEN -->
+	<section id="ecran_areas" class="ecran ombre_top">
 		
-		<!-- swiper container  -->
-		<div class="swiper-container area_container">
-		<div id="swiper_area_container" class="swiper-wrapper area_wrapper" >
-		 <!--  
-		  <div class="swiper-slide area_slide"> 
-		  		<section class="bannier_txt">
-		  			<h1></h1><h2></h2>
-		  		</section>
-				<div class="swipper_middle redim_169">	
-					<a href="#" style="left:310px; top:150px"><span></span></a>
-					<img src="img/area8.png">
-				</div>	
-		  </div> -->
+		
+		<header  id='areas_header_biomerieux' class="header_biomerieux ombre_header"></header>
+
+		<div class="swiper-container area_container ">
+			<div id="swiper_area_container" class="swiper-wrapper area_wrapper" >			
+			 <!--  swiper content type
+			  <div class="swiper-slide area_slide"> 
+			  		<section class="bannier_txt">
+			  			<h1></h1><h2></h2>
+			  		</section>
+					<div class="swipper_middle redim_169">	
+						<a href="#" style="left:310px; top:150px"><span></span></a>
+						<img src="img/area8.png">
+					</div>	
+			  </div> -->
+			</div>
 		</div>
-		</div>
-		<!-- /swiper container  -->
 
 		<footer>
-			<a href="#" class="bt_home"></a>
+			<a href="#" id="bt_home" class="json_txtFnav0">
+				MICROBIOLOGY<br>LAB*****
+			</a>
 			<nav id="swiper_nav">
-				<a href="#" slideToShow="0" class="swiper_link"><img src="img/area1_min.png" alt=""></a>
-				<a href="#" slideToShow="1" class="swiper_link"><img src="img/area2_min.png" alt=""></a>
-				<a href="#" slideToShow="2" class="swiper_link"><img src="img/area3_min.png" alt=""></a>
-				<a href="#" slideToShow="3" class="swiper_link"><img src="img/area4_min.png" alt=""></a>
-				<a href="#" slideToShow="4" class="swiper_link"><img src="img/area5_min.png" alt=""></a>
-				<a href="#" slideToShow="5" class="swiper_link"><img src="img/area6_min.png" alt=""></a>
-				<a href="#" slideToShow="6" class="swiper_link"><img src="img/area7_min.png" alt=""></a>
-				<a href="#" slideToShow="7" class="swiper_link"><img src="img/area8_min.png" alt=""></a>
+				<a href="#" alt="test" slideToShow="0" class=" swiper_link">
+					<img src="img/area1_min.png" alt="">
+					<span class="json_txtFnav1">ENVIRONMENTAL<br>MONITORING*****</span>
+				</a>
+				<a href="#" alt="test" slideToShow="1" class=" swiper_link">
+					<img src="img/area2_min.png" alt="">
+					<span class="json_txtFnav2">MEDIA<br>PREPARATION*****</span>
+				</a>
+				<a href="#" alt="test" slideToShow="2" class=" swiper_link">
+					<img src="img/area3_min.png" alt="">
+					<span class="json_txtFnav3">SAMPLE<br>PREPARATION*****</span>
+				</a>
+				<a href="#" alt="test" slideToShow="3" class=" swiper_link">
+					<img src="img/area4_min.png" alt="">
+					<span class="json_txtFnav4">QUALITY<br>INDICATORS*****</span>
+				</a>
+				<a href="#" alt="test" slideToShow="4" class=" swiper_link">
+					<img src="img/area5_min.png" alt="" class="margin_plus">
+					<span class="json_txtFnav5">INCUBATION*****</span>
+				</a>
+				<a href="#" alt="test" slideToShow="5" class=" swiper_link">
+					<img src="img/area6_min.png" alt="" class="margin_plus">
+					<span class="json_txtFnav6">PATHOGENS*****</span>
+				</a>
+				<a href="#" alt="test" slideToShow="6" class=" swiper_link">
+					<img src="img/area7_min.png" alt="" class="margin_plus">
+					<span class="json_txtFnav7">IDENTIFICATION*****</span>
+				</a>
+				<a href="#" alt="test" slideToShow="7" class=" swiper_link">
+					<img src="img/area8_min.png" alt="" >
+					<span class="json_txtFnav8">MICROBIAL<br>DETECTION*****</span>
+				</a>
 			</nav>	
-				<a href="#" slideToShow="8" class="swiper_link footer_bt_txt footer_a9"   >It Solutions</a>
-				<a href="#" slideToShow="9" class="swiper_link footer_bt_txt footer_a10" >Workflow optimisation</a>
-			<a href="#" id="bt_menu"></a>
+
+
+			<div id="footer_bottom">
+				<a href="#" class="json_txtFbA1" id="bt_sample">SAMPLE*****</a>
+				<a href="#" class="json_txtFbA2" id="bt_decision">DECISION*****</a>
+				<div id="footer_bottom_middle">					
+					<a href="#" slideToShow="8" class="json_txtFbB1 swiper_link footer_bt_txt footer_a9" >It Solutions*****</a>
+					<a href="#" slideToShow="9" class="json_txtFbB2 swiper_link footer_bt_txt footer_a10" >Workflow optimization*****</a>
+				</div>
+			</div>
+
 		</footer> 
 
-<!-- 		<nav id="menu_deroulant">
-			<ul>
-				<li><a href=""></a></li>
-				<li><a href=""></a></li>
-			</ul>
-		</nav> -->
-
-
-
 		<!-- fiche produit  -->
-		<div id="fiche_produit_bg" class="ecran">
-		<div id="fiche_container">
-			<div id="fiche_produit" class="proportions_1-2 ombre2">fiche container</div>
-			<a href="#" class="bt_fiche" id="fiche_produit_bt_video">Video</a>
-			<a href="#" class="bt_fiche" id="fiche_produit_bt_testimonial">Testimonial</a>
-			<a href="#" class="bt_fiche" id="fiche_produit_bt_share">Share</a>
-			<a href="#" class="bt_fiche" id="fiche_produit_bt_close">Close</a>
+		<div id="fiche_produit_bg" class="ecran ">
+		<div id="fiche_container" class='ombre_fiche transition_fiche'>
+			<div id="fiche_produit">fiche container</div>
+			<div id="fiche_video"></div>
+			<div id="fiche_temoignage"></div>	
+			<div id="link_container">
+				<a href="#" class="json_txtBtVideo" id="fiche_produit_bt_video">Video*****</a>
+				<a href="#" class="json_txtBtTesti" id="fiche_produit_bt_testimonial">Testimonial*****</a>
+			</div>
+			<a href="showpad://file/f4ce5abc0c822115e59c428e4c567b1d" id="fiche_produit_bt_share" target="_blank">&#x21E5;</a>
+			<a href="#" id="fiche_produit_bt_close">X</a>
+			<a href="#" id="fiche_produit_bt_back"><</a>
 		</div>
 		<!-- /fiche produit  -->
+	</section>	
 
 
+	<!-- LOADER SCREEN -->
+	<section id="ecran_loader" class="ecran"><img class="loader" src="img/loading.gif"></section>
+
+
+	<!-- PASSWORD SCREEN -->
+	<section id="ecran_password" class="ecran">
+		<div id="password_container">			
+			<form id="password" method="post" action="javascript:verif_password()">
+			<input type = "password" name="name" id="password_field"><br>
+			<a href="#" id="submit"  onclick="javascript:verif_password()">ok</a>
+			</form>
+		</div>
 	</section>
 
-	<section id="ecran_loader" class="ecran">
 </div>
+
+	<!-- build:vendor js/vendors.min.js -->
 	<script src="../bower_components/jquery/dist/jquery.js"></script>
 	<script src="../bower_components/gsap/src/uncompressed/plugins/CSSPlugin.js"></script>
 	<script src="../bower_components/gsap/src/uncompressed/easing/EasePack.js"></script>
 	<script src="../bower_components/gsap/src/uncompressed/TweenLite.js"></script>
 	<script src="../bower_components/gsap/src/uncompressed/TweenMax.js"></script>
-	<script src="js/idangerous.swiper-2.0.min.js"></script>
-	<script src="js/appli_fmla.js"></script>
+	<script src="../bower_components/idangerous-swiper/dist/idangerous.swiper.js"></script>
+	<!-- endbuild -->
 
-
+	<!-- build:app js/script.min.js -->
+	<script src="js/prefixfree.min.js"></script>
+	<script src="js/json_engine.js"></script>
+	<script src="js/ecran_welcome.js"></script>
+	<script src="js/ecran_intro.js"></script>
+	<script src="js/ecran_home.js"></script>
+	<script src="js/ecran_areas.js"></script>
+	<script src="js/ecran_fiche.js"></script>
+	<script src="js/main.js"></script>
+	<!-- endbuild -->
 
 </body>
 </html>

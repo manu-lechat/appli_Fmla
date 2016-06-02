@@ -1,0 +1,327 @@
+{ 
+  "language": "French",   
+  "img_dir": "fr",
+  "url_videos_local" : "videos",
+  "url_videos_online" : "http://www.e-lechat.com/localhost/web-app_FMLA/videos_fmla_webapp",
+  "url_fiches_showpad": "showpad://folder/462963",
+  "url_videos_showpad" : "showpad://folder/458237",
+  "txtA1" : "AUJOURD’HUI VOUS DEVEZ FAIRE FACE <br>A DES DÉFIS DIFFERENTS",
+  "txtA2" : "Rapidité des décisions",
+  "txtA3" : "Amélioration de la qualité",
+  "txtA4" : "Augmentation de la productivité",
+  "txtB1A" : "LABORATOIRE",
+  "txtB1B" : " DE MICROBIOLOGIE",
+  "txtB2A" : "Du <strong>Prélèvement</strong>",
+  "txtB2B" : "au <strong>Résultat</strong>",
+  "txtC1" : "Libérez vos produits Plus rapidement",
+  "txtC2" : "en toute confiance",
+  "txtH1A" : "LABORATOIRE",
+  "txtH1B" : " DE MICROBIOLOGIE",
+  "txtH2A" : "Du <strong>Prélèvement</strong>",
+  "txtH2B" : "au <strong>Résultat</strong>",  
+  "txtFnav0" : "LABORATOIRE<br>DE MICROBIOLOGIE",
+  "txtFnav1" : "Contrôles environnementaux",
+  "txtFnav2" : "Préparation des milieux",
+  "txtFnav3" : "Préparation de l’échantillon",
+  "txtFnav4" : "Indicateurs qualité",
+  "txtFnav5" : "Incubation",
+  "txtFnav6" : "Pathogènes",
+  "txtFnav7" : "Identification",
+  "txtFnav8" : "Détection",
+  "txtFbA1" : "Prelevement",
+  "txtFbA2" : "Resultat",
+  "txtFbB1" : "Solutions IT",
+  "txtFbB2" : "OPTIMISATION DU WORKFLOW",  
+  "txtBtVideo" : "Video",
+  "txtBtTesti" : "Témoignage",
+  "areas": [ 
+      {
+          "area_num": "1",
+          "area_file": "area1",
+          "title": "CONTRÔLE ENVIRONNEMENTAL",
+          "subtitle": "Outils microbiologiques de mesure pour le plan de contrôle HACCP",
+          "items": [ 
+          {
+            "puce_name": "AIR",
+            "puce_x": "16",
+            "puce_y": "26",
+            "fiche_file": "H1_samplair",
+            "fiche_video": "H1_samplair",
+            "fiche_video_showpad": "showpad://file/e63e3dba8eef646b76c3975ce830f2b7",
+            "fiche_testimonial": "nop"
+          },
+          {
+            "puce_name": "SURFACE",
+            "puce_x": "71",
+            "puce_y": "25",
+            "fiche_file": "H2_surface",
+            "fiche_video": "",
+            "fiche_video_showpad": "",
+            "fiche_testimonial": "nop"
+          },
+          {
+            "puce_name": "EAU",
+            "puce_x": "58",
+            "puce_y": "20",
+            "fiche_file": "H3_water",
+            "fiche_video": "",
+            "fiche_video_showpad": "",
+            "fiche_testimonial": "nop"
+          }
+         ]  
+      },
+      {
+          "area_num": "2",
+          "area_file": "area2",
+          "title": "PREPARATION DES MILIEUX DE CULTURE", 
+          "subtitle":"Améliorer la productivité et la qualité de la fabrication des milieux de culture",
+          "items": [ 
+          {
+            "puce_name": "MASTERCLAVE<sup>®</sup>",
+            "puce_x": "24",
+            "puce_y": "18",
+            "fiche_file": "A1_masterclave",
+            "fiche_video": "",
+            "fiche_video_showpad": "",
+            "fiche_testimonial": "nop"
+          },
+          {
+            "puce_name": "APS One",
+            "puce_x": "9",
+            "puce_y": "25",
+            "fiche_file": "A2_apsone",
+            "fiche_video": "A2_apsone",
+            "fiche_video_showpad": "showpad://file/6a413bb3ecf5059dfff5692b6847b318",
+            "fiche_testimonial": "nop"
+          },
+          {
+            "puce_name": "XY 500 / PM i<sup>™</sup>",
+            "puce_x": "35",
+            "puce_y": "5",
+            "fiche_file": "A3_x500_PMi",
+            "fiche_video": "A3_x500_PMi_fr",
+            "fiche_video_showpad": "showpad://file/9ad5c5c930691578d6ad464c09576d95",
+            "fiche_testimonial": "nop"
+          }
+         ]  
+
+      }, 
+      {
+          "area_num": "3",
+          "area_file": "area3",
+          "title": "PREPARATION DE L’ECHANTILLON", 
+          "subtitle": "Améliorer l’efficacité et la qualité avec la dilution et le broyage automatisés",
+          "items": [ 
+          {
+          "puce_name": "DILUMAT<sup>™</sup>",
+          "puce_x": "30",
+          "puce_y": "33",
+          "fiche_file": "B1_Dilumat",
+          "fiche_video": "B1_Dilumat_fr",
+          "fiche_video_showpad": "showpad://file/497f0394e414593d592d6e1c686dd1d7",
+          "fiche_testimonial": "nop"
+          },
+          {
+          "puce_name": "Bouillons<br>Prêts à l’Emploi",
+          "puce_x": "64",
+          "puce_y": "43",
+          "fiche_file": "B2_ready_to_use_broth",
+          "fiche_video": "",
+          "fiche_video_showpad": "",
+          "fiche_testimonial": "nop"
+          },
+          {
+          "puce_name": "SMASHER<sup>™</sup>",
+          "puce_x": "43",
+          "puce_y": "46",
+          "fiche_file": "B3_smasher",
+          "fiche_video": "",
+          "fiche_video_showpad": "",
+          "fiche_testimonial": "yep"
+          },
+          {
+          "puce_name": "DILUMAT<sup>™</sup><br>EXPERT EVO XL<br>/SMASHER<sup>™</sup> XL",
+          "puce_x": "48",
+          "puce_y": "4",
+          "fiche_file": "B4_Dilumat_XL_Smasher_XL",
+          "fiche_video": "",
+          "fiche_video_showpad": "",
+          "fiche_testimonial": "nop"
+          }
+          ]  
+      }, 
+      {
+          "area_num": "4",
+          "area_file": "area4",
+          "title": "INDICATEURS DE QUALITE",
+          "subtitle": "Rendre très facilement des résultats rapides pour les indicateurs de qualité",
+          "items": [ 
+          {
+          "puce_name": "TEMPO<sup>®</sup>",
+          "puce_x": "56",
+          "puce_y": "6",
+          "fiche_file": "C1_tempo",
+          "fiche_video": "C1_tempo",
+          "fiche_video_showpad": "showpad://file/a35c23fd71c30849e86d57877168efbe",
+          "fiche_testimonial": "yep"
+          },
+          {
+          "puce_name": "Milieux de Culture",
+          "puce_x": "70",
+          "puce_y": "30",
+          "fiche_file": "C2_culture_media",
+          "fiche_video": "",
+          "fiche_video_showpad": "",
+          "fiche_testimonial": "nop"
+          }
+          ]  
+      },
+      {
+          "area_num": "5",
+          "area_file": "area5",
+          "title": "INCUBATION ",
+          "subtitle": "Pour un contrôle des températures en temps réel",
+          "items": [ 
+          {
+            "puce_name": "LABGUARD<sup>®</sup>",
+            "puce_x": "23",
+            "puce_y": "23",
+            "fiche_file": "D1_labguard",
+            "fiche_video": "",
+            "fiche_video_showpad": "",
+            "fiche_testimonial": "nop"
+          }
+         ]  
+      },
+      {
+          "area_num": "6",
+          "area_file": "area6",
+          "title": "PATHOGENES ",
+          "subtitle": "Obtenir très facilement des résultats rapides<br>pour assurer la sécurité alimentaire et protéger la santé animale",
+          "items": [ 
+          {
+            "puce_name": "VIDAS<sup>®</sup>",
+            "puce_x": "33",
+            "puce_y": "23",
+            "fiche_file": "E1_vidas",
+            "fiche_video": "E1_vidas",
+            "fiche_video_showpad": "showpad://file/b4d860dcd3a0a30d3a94ea2c6b6d9af1",
+            "fiche_testimonial": "yep"
+          },
+          {
+            "puce_name": "Milieux<br>de culture",
+            "puce_x": "60",
+            "puce_y": "32",
+            "fiche_file": "E2_culture_media",
+            "fiche_video": "",
+            "fiche_video_showpad": "",
+            "fiche_testimonial": "nop"
+          },
+          {
+            "puce_name": "GeneUp<sup>®</sup>",
+            "puce_x": "16",
+            "puce_y": "11",
+            "fiche_file": "E4_geneup",
+            "fiche_video": "E4_geneup_fr",
+            "fiche_video_showpad": "",
+            "fiche_testimonial": "nop"
+          }
+         ]  
+      },
+      {
+          "area_num": "7",
+          "area_file": "area7",
+          "title": "IDENTIFICATION ",
+          "subtitle": "De la méthode manuelle à la méthode la plus automatisée",
+          "items": [ 
+          {
+            "puce_name": "API<sup>®</sup>",
+            "puce_x": "25",
+            "puce_y": "12",
+            "fiche_file": "F1_api",
+            "fiche_video": "",
+            "fiche_video_showpad": "",
+            "fiche_testimonial": "nop"
+          },
+          {
+            "puce_name": "VITEK<sup>®</sup> 2<br>COMPACT",
+            "puce_x": "48",
+            "puce_y": "20",
+            "fiche_file": "F2_vitek",
+            "fiche_video": "F2_vitek",
+            "fiche_video_showpad": "showpad://file/dcc81017a32bd120db52bdd2354645c4",
+            "fiche_testimonial": "nop"
+          },
+          {
+            "puce_name": "VITEK<sup>®</sup> MS",
+            "puce_x": "65",
+            "puce_y": "27",
+            "fiche_file": "F3_vitek_ms",
+            "fiche_video": "F3_vitek_ms",
+            "fiche_video_showpad": "showpad://file/6ef86e93f0069de6205bd2d126fd7aeb",
+            "fiche_testimonial": "nop"
+          }
+         ]  
+      },
+      {
+          "area_num": "8",
+          "area_file": "area8",
+          "title": "DETECTION MICROBIOLOGIQUE",
+          "subtitle": "Pour des contrôles libératoires accélérés",
+          "items": [ 
+          {
+            "puce_name": "CHEMUNEX<sup>®</sup>",
+            "puce_x": "54",
+            "puce_y": "34",
+            "fiche_file": "G1_chemunex",
+            "fiche_video": "G1_chemunex",
+            "fiche_video_showpad": "showpad://file/d9b6fc95e143a1668a0ad9589a09ec86",
+            "fiche_testimonial": "nop"
+          },
+          {
+            "puce_name": "BACT/ALERT<sup>®</sup> 3D",
+            "puce_x": "19",
+            "puce_y": "11",
+            "fiche_file": "G2_bactalert",
+            "fiche_video": "",
+            "fiche_video_showpad": "",
+            "fiche_testimonial": "nop"
+          }
+         ]  
+      },
+      {
+          "area_num": "9",
+          "area_file": "area9",
+          "title": "SOLUTIONS IT",
+          "subtitle": "Pour des services à haute valeur ajoutée",
+          "items": [ 
+          {
+            "puce_name": "SOLUTIONS IT",
+            "puce_x": "43",
+            "puce_y": "8",
+            "fiche_file": "I1_it_solutions",
+            "fiche_video": "",
+            "fiche_video_showpad": "",
+            "fiche_testimonial": "nop"
+          }
+         ]  
+      },
+      {
+          "area_num": "10",
+          "area_file": "area10",
+          "title": "OPTIMISATION DU WORKFLOW",
+          "subtitle": "Un service dédié pour améliorer la performance globale du laboratoire",
+          "items": [ 
+          {
+            "puce_name": "OPTIMISATION<br>DU WORKFLOW",
+            "puce_x": "35",
+            "puce_y": "10",
+            "fiche_file": "J1_workflow",
+            "fiche_video": "",
+            "fiche_video_showpad": "",
+            "fiche_testimonial": "yep"
+          }
+         ]  
+      }
+   ] 
+} 
