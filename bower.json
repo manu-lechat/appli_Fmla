@@ -1,6 +1,7 @@
 {
-  "name": "v_OnDev",
-  "version": "0.0.0",
+  "name": "appli_Fmla",
+  "version": "0.0.1",
+  "homepage": "https://github.com/manu-lechat/appli_Fmla",
   "authors": [
     "Manu Lechat <manu.lechat@free.fr>"
   ],
@@ -9,11 +10,14 @@
     "**/.*",
     "node_modules",
     "bower_components",
-    "test",
-    "tests"
+    "build",
+    "cache",
+    "webkitbuilds",
+    "node_modules"
   ],
   "dependencies": {
     "jquery": "~2.1.1",
-    "gsap": "~1.13.2"
+    "gsap": "~1.14.1",
+    "idangerous-swiper": "~2.7.0"
   }
 }
