@@ -13,7 +13,8 @@
     "build",
     "cache",
     "webkitbuilds",
-    "node_modules"
+    "node_modules",
+    "src/videos"
   ],
   "dependencies": {
     "jquery": "~2.1.1",
