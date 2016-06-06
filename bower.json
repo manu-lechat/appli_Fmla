@@ -17,8 +17,8 @@
     "src/videos/**"
   ],
   "dependencies": {
-    "jquery": "~2.1.1",
-    "gsap": "~1.14.1",
-    "idangerous-swiper": "~2.7.0"
+    "jquery": "2.1.1",
+    "gsap": "1.14.1",
+    "idangerous-swiper": "2.7.0"
   }
 }
