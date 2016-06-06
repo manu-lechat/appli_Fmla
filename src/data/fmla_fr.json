@@ -81,8 +81,8 @@
             "puce_x": "24",
             "puce_y": "18",
             "fiche_file": "A1_masterclave",
-            "fiche_video": "",
-            "fiche_video_showpad": "",
+            "fiche_video": "A1_masterclave_fr",
+            "fiche_video_showpad": "showpad://file/a6c0ddee0294dd77ed0e5131d2c41d6f",
             "fiche_testimonial": "nop"
           },
           {
@@ -147,6 +147,15 @@
           "fiche_video": "",
           "fiche_video_showpad": "",
           "fiche_testimonial": "nop"
+          },
+          {
+            "puce_name": "MASTERCLAVE<sup>®</sup>",
+            "puce_x": "24",
+            "puce_y": "18",
+            "fiche_file": "A1_masterclave",
+            "fiche_video": "A1_masterclave_fr",
+            "fiche_video_showpad": "showpad://file/a6c0ddee0294dd77ed0e5131d2c41d6f",
+            "fiche_testimonial": "nop"
           }
           ]  
       }, 
@@ -222,7 +231,7 @@
             "puce_x": "16",
             "puce_y": "11",
             "fiche_file": "E4_geneup",
-            "fiche_video": "E4_geneup_fr",
+            "fiche_video": "E4_geneup",
             "fiche_video_showpad": "",
             "fiche_testimonial": "nop"
           }
@@ -275,7 +284,7 @@
             "puce_y": "34",
             "fiche_file": "G1_chemunex",
             "fiche_video": "G1_chemunex",
-            "fiche_video_showpad": "showpad://file/d9b6fc95e143a1668a0ad9589a09ec86",
+            "fiche_video_showpad": "showpad://file/39030983865d79da8bad258d4531a913",
             "fiche_testimonial": "nop"
           },
           {

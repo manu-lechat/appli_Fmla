@@ -1,5 +1,6 @@
 "use strict";
 
+
 var contexte_app = "local"; // showpad / online // ou local
 var main_width = 1920;
 var main_height = 1080;
@@ -59,7 +60,6 @@ function doNextStep() {
 }
 
 
-
 function ecran_welcome_end() {
 
 	// apres l'ecran welcome, 
@@ -74,7 +74,6 @@ function jsonEngine_end() {
 
 	doNextStep();
 }
-
 
 
 function intro_anim_in() {
@@ -92,11 +91,11 @@ function ecran_intro_out() {
 	document.getElementById('ecran_intro_anim').innerHTML = "";
 }
 
-// function main_goto_home() {
+function main_goto_home() {
 
-// 	show_ecran("ecran_home");
-// 	oo_ecran_home.init();
-// }
+	show_ecran("ecran_home");
+	oo_ecran_home.init();
+}
 
 function main_goto_intro() {
 
