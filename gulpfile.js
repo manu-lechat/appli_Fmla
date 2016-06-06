@@ -190,7 +190,7 @@ gulp.task('nw', function() {
 
 	var nw = new NwBuilder({
 		files: [dest.folder + '/**/*', 'package.json'],
-		platforms: ['osx64','win32'],
+		platforms: ['osx64','win32', 'win64'],
 		version: 'v0.11.0',
 		buildDir: './webkitbuilds'
 		// platforms: ['osx32', 'osx64', 'win32', 'win64']
