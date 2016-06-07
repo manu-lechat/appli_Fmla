@@ -150,8 +150,8 @@
           },
           {
             "puce_name": "MASTERCLAVE<sup>®</sup>",
-            "puce_x": "24",
-            "puce_y": "18",
+            "puce_x": "14",
+            "puce_y": "20",
             "fiche_file": "A1_masterclave",
             "fiche_video": "A1_masterclave_fr",
             "fiche_video_showpad": "showpad://file/a6c0ddee0294dd77ed0e5131d2c41d6f",
@@ -232,7 +232,7 @@
             "puce_y": "11",
             "fiche_file": "E4_geneup",
             "fiche_video": "E4_geneup",
-            "fiche_video_showpad": "",
+            "fiche_video_showpad": "showpad://file/134ffbffff680d2347e42788280742d8",
             "fiche_testimonial": "nop"
           }
          ]  

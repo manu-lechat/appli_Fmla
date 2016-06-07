@@ -94,7 +94,7 @@ gulp.task('font', function() {
 gulp.task('usemin', function() {
 	gulp.src(src.index)
 		.pipe(usemin({
-			//css: [minifyCss(), 'concat'],
+			css: [minifyCss(), 'concat'],
 			html: [minifyHtml({
 				empty: true
 			})],
@@ -110,7 +110,7 @@ gulp.task('usemin', function() {
 // minify images
 gulp.task('img', function() {
 	gulp.src(src.img)
-	.pipe(imagemin())
+	//.pipe(imagemin())
 	.pipe(gulp.dest(dest.img));
 	// .pipe(refresh(server));
 });
@@ -161,23 +161,14 @@ gulp.task('default', function() {
 gulp.task('prepare_showpad', function() {
 	// delete dist folder and rebuild it
 	rimraf(dest.folder, function() {
-		gulp.start('server', 'livereload', 'open', 'data', 'media', 'img', 'font', 'usemin');
+		gulp.start('data', 'media', 'img', 'font', 'usemin');
 	});
-
-	// watch assets, and if they change rebuild them
-	gulp.watch(src.font, ['font']);
-	gulp.watch(src.data, ['data']);
-	gulp.watch(src.media, ['media']);
-	gulp.watch(src.js, ['usemin']);
-	gulp.watch(src.css, ['usemin']);
-	gulp.watch(src.index, ['usemin']);
-	gulp.watch(src.img, ['img']);
 });
 
 
 
 gulp.task('prepare', function() {
-	// delete dist folder and rebuild it
+	// delete webkitbuilds folder and rebuild it
 	rimraf(dest.folder, function() {
 		rimraf('webkitbuilds', function() {
 			gulp.start('data', 'media', 'videos', 'img', 'font', 'usemin');

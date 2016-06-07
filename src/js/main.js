@@ -59,7 +59,6 @@ function doNextStep() {
 	}
 }
 
-
 function ecran_welcome_end() {
 
 	// apres l'ecran welcome, 
@@ -67,7 +66,6 @@ function ecran_welcome_end() {
 	// en fon de process on récupérera jsonEngine_end();
 	get_json();
 }
-
 
 
 function jsonEngine_end() {
